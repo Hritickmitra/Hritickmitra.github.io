@@ -4,127 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hritick Kumar Mitra | Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav>
-        <div class="nav-container">
+    <header class="integrated-header">
+        
+        <nav class="nav-container">
             <div class="logo">HM.</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact" class="btn-nav">Contact Me</a></li>
             </ul>
-        </div>
-    </nav>
+            <a href="#contact" class="btn-nav">Contact Me</a>
+        </nav>
 
-    <header class="hero">
         <div class="hero-content">
             <p class="greeting">Hi, I am</p>
             <h1>Hritick Kumar Mitra</h1>
             <p class="role">Software Engineer / Researcher</p>
+            
             <div class="social-icons">
                 <a href="#"><i class="fab fa-github"></i></a>
                 <a href="#"><i class="fab fa-linkedin"></i></a>
                 <a href="#"><i class="fas fa-envelope"></i></a>
             </div>
-        </div>
-        <div class="hero-image">
-            <img src="https://via.placeholder.com/400x500" alt="Hritick Kumar Mitra">
+
+            <div class="hero-image-placeholder">
+                <img src="https://via.placeholder.com/200x200" alt="Hritick Kumar Mitra">
+            </div>
         </div>
     </header>
 
-    <section id="about" class="section-light fade-in">
-        <div class="container">
+    <main class="container">
+        <section id="about" class="section-light fade-in">
             <h2 class="section-title">ABOUT ME</h2>
-            <p class="about-text">I am a driven software engineer and researcher currently studying at Brac University. I specialize in backend architecture, machine learning models, and system optimization, bridging the gap between theoretical research and practical, high-performance applications.</p>
-            
-            <div class="about-grid">
-                <div class="about-item">
-                    <h3>Development</h3>
-                    <p>Building robust system architectures, including comprehensive supply chain management systems optimized for real-world enterprise use.</p>
-                </div>
-                <div class="about-item">
-                    <h3>Machine Learning</h3>
-                    <p>Researching and refining predictive neural networks, with a strong focus on Long Short-Term Memory (LSTM) architectures.</p>
-                </div>
-                <div class="about-item">
-                    <h3>Hardware & Gaming</h3>
-                    <p>Designing interactive game environments and custom-building high-performance desktop rigs tailored for heavy computational workloads.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="section-light fade-in">
-        <div class="container">
-            <h2 class="section-title">SKILLS</h2>
-            <div class="skills-grid">
-                <div class="skill-icon"><i class="fab fa-python"></i><span>Python</span></div>
-                <div class="skill-icon"><i class="fas fa-microchip"></i><span>C++ / C#</span></div>
-                <div class="skill-icon"><i class="fas fa-network-wired"></i><span>LSTM & NN</span></div>
-                <div class="skill-icon"><i class="fas fa-database"></i><span>SQL</span></div>
-                <div class="skill-icon"><i class="fab fa-unity"></i><span>Game Dev</span></div>
-                <div class="skill-icon"><i class="fas fa-desktop"></i><span>Hardware</span></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio" class="section-dark fade-in">
-        <div class="container">
-            <h2 class="section-title title-light">PORTFOLIO</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/400x300/1a1a1a/ffffff?text=Supply+Chain+System" alt="Supply Chain System">
-                    <div class="portfolio-overlay">
-                        <h3>Supply Chain Architecture</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/400x300/1a1a1a/ffffff?text=LSTM+Models" alt="LSTM Models">
-                    <div class="portfolio-overlay">
-                        <h3>Predictive ML Models</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/400x300/1a1a1a/ffffff?text=Game+Environment" alt="Game Dev">
-                    <div class="portfolio-overlay">
-                        <h3>Interactive Environments</h3>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/400x300/1a1a1a/ffffff?text=Custom+Build" alt="Hardware">
-                    <div class="portfolio-overlay">
-                        <h3>Performance Hardware</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section-light fade-in">
-        <div class="container contact-container">
-            <h2 class="section-title">CONTACT</h2>
-            <form class="contact-form">
-                <input type="text" placeholder="ENTER YOUR NAME*" required>
-                <input type="email" placeholder="ENTER YOUR EMAIL*" required>
-                <input type="text" placeholder="PHONE NUMBER">
-                <textarea placeholder="YOUR MESSAGE*" rows="4" required></textarea>
-                <button type="submit" class="btn-submit">SUBMIT</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <p>@2026 Hritick Kumar Mitra. All Rights Reserved.</p>
-    </footer>
+            </section>
+        
+        </main>
 
     <script src="script.js"></script>
 </body>
